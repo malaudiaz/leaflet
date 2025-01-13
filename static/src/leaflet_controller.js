@@ -18,6 +18,7 @@ import { usePager } from "@web/search/pager_hook";
 import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
 
 export class LeafletController extends Component {
+
     async setup() {
         this.actionService = useService("action");
         this.dialogService = useService("dialog");
